@@ -34,7 +34,7 @@
 
 ## Install new modules
 - Choose your module at [NPM](https://www.npmjs.com/)
-- Using the terminal in your webpack folder, type `npm i -D [npm_module_name]`
+- Using the terminal in your webpack folder, run `npm i -D [npm_module_name]`
 
 ## Recommendations
 
