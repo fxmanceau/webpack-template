@@ -6,7 +6,7 @@
 2. Open your editor and the webpack template folder in the terminal
 3. Install all the dependencies by running `npm install`
 4. Develop with `npm run dev`
-5. Build for production with `npm run build` (default output in `dist/`, can be modify in `webpack.common.js`)
+5. Build for production with `npm run build` (default output in `dist/`, can be modified in `webpack.common.js`)
 
 ## Options enabled
 - [x] Transpiling
