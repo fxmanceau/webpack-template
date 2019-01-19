@@ -25,8 +25,8 @@
     "webpack-merge": "^4.2.1"
   },
   "scripts": {
-    "build": "webpack --config ./bundler/webpack.prod.js",
-    "dev": "webpack-dev-server --config ./bundler/webpack.dev.js"
+    "build": "webpack --config ./config/webpack.prod.js",
+    "dev": "webpack-dev-server --config ./config/webpack.dev.js"
   },
   "keywords": [],
   "author": "",

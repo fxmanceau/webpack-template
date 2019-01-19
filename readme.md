@@ -46,3 +46,8 @@
 - Install [npm-check](https://www.npmjs.com/package/npm-check) to check for outdated (updates), incorrect, and unused dependencies by running `npm install -g npm-check`
 - Use it with `npm-check`
 - Update dependencies with `npm-check -u` (and choose the dependency to update) or `npm-check -y` (updates all dependencies)
+
+## Congrats!
+You have your very first Webpack Template.
+
+![Congrats dude!](https://media.giphy.com/media/sBLcw5Ic4QUTK/giphy.gif)

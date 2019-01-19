@@ -20,8 +20,8 @@ module.exports = webpackMerge(
         mode: 'production',
         entry:
         {
-            'main-css': './src/style/style.styl',
-            'reset-css':'./src/style/reset.css'
+            'reset':'./src/style/reset.css',
+            'style': './src/style/style.styl'
         },
         optimization: {
             splitChunks: {
@@ -43,7 +43,7 @@ module.exports = webpackMerge(
           },
         plugins:
         [
-            new MiniCssExtractPlugin({filename: '../style/[name].[hash].css'}),
+            new MiniCssExtractPlugin({filename: '../style/[name].css'}),
             new CleanWebpackPlugin(
                 ['dist'],
                 {root: path.resolve(__dirname, '..')}

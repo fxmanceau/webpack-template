@@ -7,7 +7,7 @@ module.exports = {
     output: 
     {
         filename: 'bundle.[hash].js',
-        path: path.resolve(__dirname, '../dist/script/') // Output folder
+        path: path.resolve(__dirname, '../dist/script') // Output folder
     },
     plugins:
     [
@@ -37,7 +37,7 @@ module.exports = {
                         loader: 'file-loader',
                         options:
                         {
-                            outputPath: 'images/'
+                            outputPath: '../images/'
                         }
                     }
                 ]

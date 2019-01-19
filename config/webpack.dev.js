@@ -1,5 +1,7 @@
 const webpack = require('webpack')
 const webpackMerge = require('webpack-merge')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require('path')
 const commonConfiguration = require('./webpack.common.js')
 
 module.exports = webpackMerge(
@@ -10,6 +12,9 @@ module.exports = webpackMerge(
         plugins:
         [
             new webpack.HotModuleReplacementPlugin(),
+            new HtmlWebpackPlugin({
+                template: path.resolve(__dirname, '../src/index.html')
+            })
         ],
         devServer: 
         {
