@@ -11,7 +11,7 @@ module.exports = {
     },
     plugins:
     [
-        new CopyWebpackPlugin([ { from: 'static' } ]),
+        new CopyWebpackPlugin([ { from: 'static', to: '../images/' } ]),
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, '../src/index.html'),
             filename: '../index.html'
