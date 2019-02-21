@@ -6,7 +6,7 @@
 2. Open your editor and the webpack template folder in the terminal
 3. Install all the dependencies by running `npm install`
 4. Develop with `npm run dev`
-5. Build for production with `npm run build` (default output in `dist/`, can be modify in `webpack.common.js`)
+5. Build for production with `npm run build` (default output in `dist/`, can be modified in `webpack.common.js`)
 
 ## Options enabled
 - [x] Transpiling
@@ -34,7 +34,7 @@
 
 ## Install new modules
 - Choose your module at [NPM](https://www.npmjs.com/)
-- Using the terminal in your webpack folder, type `npm i -D [npm_module_name]`
+- Using the terminal in your webpack folder, run `npm i -D [npm_module_name]`
 
 ## Recommendations
 
